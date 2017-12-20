@@ -70,7 +70,7 @@ CREATE TABLE `wx_accounts` (
   `sex` tinyint(4) DEFAULT '0',
   `province` varchar(20) DEFAULT NULL,
   `city` varchar(20) DEFAULT NULL,
-  `country` varchar(20) DEFAULT NULL,
+  `country` varchar(50) DEFAULT NULL,
   `headImgUrl` varchar(300) DEFAULT NULL,
   `privilege` text,
   `accessToken` varchar(500) NOT NULL DEFAULT '',
